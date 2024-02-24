@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca93883d25ea789418b3425c566c36e3, type: 3}
+  m_Name: VZParamsSO
+  m_EditorClassIdentifier: 
+  VillagerSpawnPosList:
+  - {x: 8, y: 0.5, z: -5}
+  - {x: 8, y: 0.5, z: -4}
+  - {x: 8, y: 0.5, z: -3}
+  - {x: 8, y: 0.5, z: -2}
+  - {x: 8, y: 0.5, z: -1}
+  - {x: 8, y: 0.5, z: 1}
+  - {x: 8, y: 0.5, z: 2}
+  - {x: 8, y: 0.5, z: 3}
+  - {x: 8, y: 0.5, z: 4}
+  - {x: 8, y: 0.5, z: 5}
+  ZombieSpawnPosList:
+  - {x: -8, y: 0.5, z: -5}
+  - {x: -8, y: 0.5, z: -4}
+  - {x: -8, y: 0.5, z: -3}
+  - {x: -8, y: 0.5, z: -2}
+  - {x: -8, y: 0.5, z: -1}
+  - {x: -8, y: 0.5, z: 1}
+  - {x: -8, y: 0.5, z: 2}
+  - {x: -8, y: 0.5, z: 3}
+  - {x: -8, y: 0.5, z: 4}
+  - {x: -8, y: 0.5, z: 5}
+  ZombieSpeed: 4
+  VillagerSpeed: 6
+  VillagerRefindPeriod: 0.5
+  VillagerRefindPeriodOffset: 0.25
+  ZombieRefindVillagerPeriod: 1
+  ZombieRefindVillagerPeriodOffset: 0.5
+  RandomThetaCoefRange:
+  - -0.5
+  - 0.5
+  RandomThetaOutOfRangeP: 0.1
+  ZombieRefindZombiePeriod: 0.1
+  ZombieMaxSelfDistance: 0.01
+  ZombieOnAloneMinDistance: 1.5
+  ZombieMaxHP: 20
+  VillagerMaxHP: 20
+  ZombieDamagePeriod: 0.5
+  VillagerDamagePeriod: 0.5
+  ZombieAttackPower: 1
+  KillDecidePeriod: 1
+  KillLimitPosition:
+  - {x: -10, y: 0, z: -10}
+  - {x: 10, y: 1, z: 10}
